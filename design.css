@@ -52,8 +52,6 @@ body{
 .onPlayer{
     transform: translateY(-85px);
     transition: all 1s;
-    visibility: collapse;
-
 }
 
 input{
