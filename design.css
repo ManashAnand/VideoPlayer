@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #5A082D;
+}
+
+#container{
+        height: 100vh;
+        width: 100vw;
+     border: 8px solid green;
+     
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+#videoPlayer{
+    height: 300px;
+    box-shadow: 2px 2px 160px #FF004D;
+    
+}
+
+
+#boxBelow{
+    display: flex;
+    
+}
+
+.same{
+    cursor:pointer;
+    font-size: large;
+    margin-left: 1.5rem;
+    transition: all 2s;
+ 
+ 
+}
+
+
+#boxMed{
+    margin: 0.5rem;
+
+}
+
+#VideoTime{
+    width: 32rem;
+    display: flex;
+
+    
+}
+.onPlayer{
+    transform: translateY(-85px);
+    transition: all 1s;
+    visibility: collapse;
+
+}
+
+input{
+    cursor:pointer;
+
+
+}
+
